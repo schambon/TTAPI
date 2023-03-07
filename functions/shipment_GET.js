@@ -2,6 +2,8 @@
 exports = function({ query, headers, body}, response) {
     // Data can be extracted from the request as follows:
 
+    // A COMMENT!!!
+
     // Query params, e.g. '?arg1=hello&arg2=world' => {arg1: "hello", arg2: "world"}
     const {id} = query;
 
