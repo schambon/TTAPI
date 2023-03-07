@@ -13,7 +13,6 @@ exports = function({ query, headers, body}, response) {
     const dbname = context.values.get("shipment_db");
     const collname = context.values.get("shipment_coll");
     const result = context.services.get("mongodb-atlas").db(dbname).collection(collname).findOne({_id: BSON.ObjectId(id)});
-    result.synthetic=true;
-    return result;
+    return {"bad data": true};
 
 };
