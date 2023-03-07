@@ -1,9 +1,8 @@
 {
-    "app_id": "ttapi-prod-tvjln",
     "config_version": 20210101,
-    "name": "TTAPI-Prod",
+    "app_id": "ttapi-dev-vmitk",
+    "name": "TTAPI-Dev",
     "location": "IE",
-    "provider_region": "aws-eu-west-2",
     "deployment_model": "LOCAL",
-    "environment": "production"
+    "environment": "development"
 }
